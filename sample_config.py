@@ -27,7 +27,7 @@ class Config(object):
     TG_USER_SESSION_NAME = os.environ.get("TG_USER_SESSION_NAME", "oxmohsen")
 
     # tg user session string
-    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "")
+    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "BQGYCR0Aigjr9Ly_dQDvgAcKeAmxw8u2lFTqpBQ6W2IMeyJDrPSKmhYU6pToMGE6ZwFFARXLPU9yjtVk0ieidpjMobGUzZhpjOzTAGBC5wqAk81iDmVeQmWPrYeWhw1J5eCqIcq2-4Rvf0wmkNTF0tKFoEfD07JZzfp_H0yf2tiEmbrcRJXMK2oeime5n-dg8_NnHPnlfwrfL0ZzWZJWOCUh7XkMj-K3f4jeXquD6xg4_GLor4n-xHpFKMCASyvL40GYF_QdRfIqMDhspm_-lRQsqCR5ZO9YBfoRKyIFHQ31EdPU-k6PcREn8XF0c5LcraStJgjavEPDaDI8owspdt2tQewJZAAAAAGY2uztAA")
 
 
 def LOGGER(name: str) -> logging.Logger:
